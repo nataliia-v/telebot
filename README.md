@@ -25,8 +25,13 @@ cobra-cli init
 cobra-cli add version 
 ``` 
 
-5. generate kbot.go
+5. generate telebot.go
 
 ```bash
-cobra-cli add kbot 
+cobra-cli add telebot 
+``` 
+
+6. set version
+```bash
+go build -ldflags "-X="github.com/nataliia-v/telebot/cmd.appVersion=v1.0.0
 ``` 
