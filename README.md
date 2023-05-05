@@ -50,7 +50,7 @@ go get
 ```bash
 go build -ldflags "-X="github.com/nataliia-v/telebot/cmd.appVersion=v1.0.1
 ``` 
-4. Test
+4. Test 'TELE_TOKEN'
  (return message "telebot v1.0.1 started2023/05/05 13:11:38 Please check TELE_TOKEN env variable. %stelegram: Not Found (404)")
 
 ```bash
