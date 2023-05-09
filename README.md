@@ -28,7 +28,7 @@ cobra-cli add version
 5. generate telebot.go
 
 ```bash
-cobra-cli add telebot 
+cobra-cli add kbot 
 ``` 
 
 6. set version
@@ -38,7 +38,7 @@ go build -ldflags "-X="github.com/nataliia-v/telebot/cmd.appVersion=v1.0.0
 
 ##  🍀 Telegram bot integration  ☘️
 
-1. Add TELE_TOKEN and logic in Run func in [telebot.go](./cmd/telebot.go)
+1. Add TELE_TOKEN and logic in Run func in [kbot.go](./cmd/kbot.go)
 
 2. Download and install dependencies
 
@@ -77,7 +77,7 @@ export TELE_TOKEN
 
 ## 💬 🤖 Chat in Telegram bot 
 
-1. Open in Telegram chat @natalka_k_bot and send 
+1. Open in Telegram chat t.me/nataliia_k_bot and send 
 
 ```bash
 /start hello
